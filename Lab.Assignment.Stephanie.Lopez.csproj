@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="desktop-wallpaper-full-screen.jpg" />
+    <None Remove="f24237ef732045142db85f228e267ed4_w200.gif" />
+    <None Remove="Screenshot 2023-11-01 125959.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="desktop-wallpaper-full-screen.jpg" />
+    <Resource Include="f24237ef732045142db85f228e267ed4_w200.gif" />
+    <Resource Include="Screenshot 2023-11-01 125959.png" />
+  </ItemGroup>
+
+</Project>
