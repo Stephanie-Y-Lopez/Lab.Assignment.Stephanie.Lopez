@@ -18,8 +18,16 @@
         <Label Content="* ll /" Height="23" Canvas.Left="127" Canvas.Top="182" Width="43" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         <TextBox x:Name="TextBox4" Height="23" Canvas.Left="175" TextWrapping="Wrap" Text="" Canvas.Top="182" Width="96" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         <Label Content="=" Height="23" Canvas.Left="276" Canvas.Top="182" Width="22" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-        <Button x:Name="btnMultiply" Content="Multiply" Height="36" Canvas.Left="22" Canvas.Top="220" Width="193" HorizontalAlignment="Center" VerticalAlignment="Top" Background="#FFF98ED7" Click="btnMultiply_Click"/>
-        <Button x:Name="btnDivide" Content="Divide" Height="36" Canvas.Left="236" Canvas.Top="220" Width="193" HorizontalAlignment="Left" VerticalAlignment="Center" Background="#FFF37FCE" Click="btnDivide_Click"/>
+        <Button x:Name="btnMultiply" Content="Multiply" Height="36" Canvas.Left="22" Canvas.Top="220" Width="193" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnMultiply_Click">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnDivide" Content="Divide" Height="36" Canvas.Left="236" Canvas.Top="220" Width="193" HorizontalAlignment="Left" VerticalAlignment="Center" Click="btnDivide_Click">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
         <Button x:Name="btnSubtract" Content="Subtract" Height="36" Canvas.Left="236" Canvas.Top="90" Width="193" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FFFB8AE2" Click="btnSubtract_Click"/>
         <Button x:Name="btnAdd" Content="Add" Height="36" Canvas.Left="22" Canvas.Top="90" Width="193" HorizontalAlignment="Center" VerticalAlignment="Top" Background="#FFFF95E7" Click="btnAdd_Click"/>
         <Button x:Name="AverageResultBut" Content="Average of Results" Height="36" Canvas.Left="326" Canvas.Top="303" Width="164" HorizontalAlignment="Center" VerticalAlignment="Top" Background="#FFF770D9" Click="AverageResultBut_Click"/>
